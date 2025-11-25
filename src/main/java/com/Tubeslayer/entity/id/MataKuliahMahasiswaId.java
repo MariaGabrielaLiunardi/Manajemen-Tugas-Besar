@@ -4,8 +4,7 @@ import lombok.Data;
 import java.io.Serializable; 
 
 @Data
-public class MataKuliahDosenId implements Serializable {
+public class MataKuliahMahasiswaId implements Serializable {
     private String user;
     private String mataKuliah;
 }
-
